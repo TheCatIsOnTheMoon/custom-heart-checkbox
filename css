@@ -1,0 +1,25 @@
+/* heart checkboxes */
+
+.restaurantmenu__presentation__title__like,
+.restaurants__figcaption__like {
+  position: relative;
+  width: 2rem;
+  margin: 0.3rem 0.5rem 0 0;
+  cursor: pointer;
+}
+
+.restaurants__figcaption__like__emptyheart {
+  width: 6rem;
+  position: absolute;
+}
+
+.restaurants__figcaption__like__fullheart {
+  width: 6rem;
+  position: absolute;
+  opacity: 0;
+}
+
+.restaurants__figcaption__like__fullheart:hover {
+  opacity: 1;
+  transition: 400ms ease-in-out;
+}
